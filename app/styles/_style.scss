@@ -6,6 +6,7 @@
   right: auto;
   z-index: 999;
   width: 100%;
+  @include transition(all 0.2s ease-out);
 
   .navbar-default {
     background: none;
@@ -415,7 +416,6 @@
     }*/
     .item {
       width: 100%;
-      float: left;
       img {
         max-width: 100%;
         width: 100%;
